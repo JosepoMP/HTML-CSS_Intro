@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Meta tags SEO -->
+    <meta name="description" content="Jose Patiño - Full Stack Developer Portfolio. Specialized in web development, data analysis, and API integration." />
+    <meta name="keywords" content="full stack developer, web development, portfolio, Jose Patiño, frontend, backend, React, Node.js" />
+    <meta name="author" content="Jose Patiño" />
+    <meta name="robots" content="index, follow" />
+    <meta property="og:title" content="Jose Patiño - Full Stack Developer Portfolio" />
+    <meta property="og:description" content="Full Stack Developer specialized in creating modern and responsive web applications." />
+    <meta property="og:image" content="/img/picture01.jpg" />
+    <meta property="og:url" content="https://your-domain.com" />
+    <link rel="stylesheet" href="/styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome para iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>Jose's Web - Full Stack Developer Portfolio</title>
+    <link
+      rel="shortcut icon"
+      href="/img/robot_10681121.png"
+      type="image/x-icon"
+    />
+  </head>
+
+  <body>
+    <!-- Loader -->
+    <div class="loader-container">
+      <div class="loader">
+        <div class="loader-circle"></div>
+        <div class="loader-text">Loading...</div>
+      </div>
+    </div>
+
+    <!-- Botón Volver Arriba -->
+    <button id="back-to-top" class="back-to-top" aria-label="Volver arriba">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <header>
+      <div class="logo-container">
+        <svg class="logo-svg" width="40" height="40" viewBox="0 0 100 100">
+          <defs>
+            <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" style="stop-color:#DB9D29" />
+              <stop offset="100%" style="stop-color:#B67D1F" />
+            </linearGradient>
+            <!-- Definimos un path para los corchetes curvos -->
+            <path id="leftBracket" 
+                  d="M35,25 Q25,25 25,35 L25,65 Q25,75 35,75" 
+                  stroke="white" 
+                  fill="none" 
+                  stroke-width="3" 
+                  stroke-linecap="round"/>
+            <path id="rightBracket" 
+                  d="M65,25 Q75,25 75,35 L75,65 Q75,75 65,75" 
+                  stroke="white" 
+                  fill="none" 
+                  stroke-width="3" 
+                  stroke-linecap="round"/>
+          </defs>
+          <rect x="10" y="10" width="80" height="80" rx="20" fill="url(#gradient)" class="logo-bg" />
+          <text x="50" y="62" text-anchor="middle" class="logo-text" fill="white" style="font-size: 36px; font-weight: bold; font-family: 'Ubuntu', sans-serif;">JP</text>
+          <!-- Usamos los paths definidos -->
+          <use href="#leftBracket" class="logo-bracket left-bracket" />
+          <use href="#rightBracket" class="logo-bracket right-bracket" />
+          <!-- Detalles decorativos -->
+          <circle cx="25" cy="35" r="2" fill="white" class="logo-dot" />
+          <circle cx="25" cy="65" r="2" fill="white" class="logo-dot" />
+          <circle cx="75" cy="35" r="2" fill="white" class="logo-dot" />
+          <circle cx="75" cy="65" r="2" fill="white" class="logo-dot" />
+        </svg>
+      </div>
+      <span> <b id="uf1">Jose's</b> Web</span>
+      <nav class="navegation">
+        <a class="UI" href="#home">
+          <i class="fas fa-home"></i>
+          <span>Home</span>
+        </a>
+        <a class="UI" href="#about">
+          <i class="fas fa-user"></i>
+          <span>About</span>
+        </a>
+        <a class="UI" href="#projects">
+          <i class="fas fa-code"></i>
+          <span>Projects</span>
+        </a>
+        <a class="UI" href="#skills">
+          <i class="fas fa-tools"></i>
+          <span>Skills</span>
+        </a>
+        <a class="UI" href="#testimonials">
+          <i class="fas fa-star"></i>
+          <span>Testimonials</span>
+        </a>
+        <a class="UI" href="#achievements">
+          <i class="fas fa-trophy"></i>
+          <span>Achievements</span>
+        </a>
+        <a class="UI" href="#blog">
+          <i class="fas fa-blog"></i>
+          <span>Blog</span>
+        </a>
+        <a class="UI" href="#contact">
+          <i class="fas fa-envelope"></i>
+          <span>Contact</span>
+        </a>
+      </nav>
+    </header>
+    
+    <main id="home">
+      <section class="introduction">
+        <div class="picture">
+          <img src="./img/picture01.jpg" alt="profile pic" />
+        </div>
+
+        <div class="cta">
+          <h1>
+            HELLO! <br />
+            I'M <b id="uf2">JOSE PATIÑO</b>
+          </h1>
+          <p class="under_cta">
+            "Aspiring Full Stack Developer | Turning Ideas into Code" Currently
+            diving deep into the full stack - from crafting sleek, responsive
+            UIs to building robust APIs and managing databases. I'm passionate
+            about learning modern frameworks, writing clean, maintainable code,
+            and bringing real-world projects to life as I grow into a
+            professional developer.
+          </p>
+          <div class="social-links">
+            <a href="https://github.com/JosepoMP" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/jose-pati%C3%B1o-77b1892ab/" target="_blank" class="social-icon"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/josemig.p/?next=%2F" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+          </div>
+          <a href="#contact">
+            <button class="cta_button">Contact Me</button>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <section id="about" class="middle_page">
+      <div class="services_title">
+        <h2> <b id="uf3">My</b> Services</h2>
+        <p>Freelance web designer & developer
+          I design and develop responsive, user-focused websites that combine functionality with clean modern design. Whether it's a landing page, portfolio, or full website, I deliver reliable and scalable solutions tailored to your needs. 
+        </p>
+        <img id="picture02" src="./img/picture02.jpg" alt="services pict" />
+      </div>
+
+      <div class="services">
+        <div class="text_box">
+          <i class="fas fa-chart-line service-icon"></i>
+          <h3>Data Analysis</h3>
+          <p>Transform raw data into actionable insights</p>
+        </div>
+        <div class="text_box">
+          <i class="fas fa-code service-icon"></i>
+          <h3>Web Development</h3>
+          <p>Creating responsive and modern websites</p>
+        </div>
+        <div class="text_box">
+          <i class="fas fa-plug service-icon"></i>
+          <h3>API Integration</h3>
+          <p>Seamless connection of different services</p>
+        </div>
+        <div class="text_box">
+          <i class="fas fa-bug service-icon"></i>
+          <h3>Testing & Debugging</h3>
+          <p>Ensuring quality and reliability</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+      <h2><b id="uf4">Featured</b> Projects</h2>
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-image">
+            <img src="./img/project1.jpg" alt="Modern web development project" loading="lazy">
+          </div>
+          <div class="project-content">
+            <h3>E-commerce Platform</h3>
+            <p>A modern e-commerce solution with real-time inventory management and secure payment processing.</p>
+            <div class="project-tags">
+              <span>React</span>
+              <span>Node.js</span>
+              <span>MongoDB</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+              <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-image">
+            <img src="./img/project2.jpg" alt="Mobile responsive application" loading="lazy">
+          </div>
+          <div class="project-content">
+            <h3>Task Management App</h3>
+            <p>A responsive task management application with real-time collaboration features.</p>
+            <div class="project-tags">
+              <span>Vue.js</span>
+              <span>Firebase</span>
+              <span>Tailwind</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+              <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-image">
+            <img src="./img/project3.jpg" alt="Data visualization project" loading="lazy">
+          </div>
+          <div class="project-content">
+            <h3>Data Analytics Dashboard</h3>
+            <p>Interactive dashboard for visualizing complex data sets with real-time updates.</p>
+            <div class="project-tags">
+              <span>Python</span>
+              <span>D3.js</span>
+              <span>Flask</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+              <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="skills-section">
+      <h2><b id="uf5">Technical</b> Skills</h2>
+      <div class="skills-container">
+        <div class="skills-category">
+          <h3>Frontend</h3>
+          <div class="skills-grid">
+            <div class="skill-item">
+              <i class="fab fa-html5"></i>
+              <span>HTML5</span>
+              <div class="skill-level" data-level="90"></div>
+            </div>
+            <div class="skill-item">
+              <i class="fab fa-css3-alt"></i>
+              <span>CSS3</span>
+              <div class="skill-level" data-level="85"></div>
+            </div>
+            <div class="skill-item">
+              <i class="fab fa-js"></i>
+              <span>JavaScript</span>
+              <div class="skill-level" data-level="80"></div>
+            </div>
+            <div class="skill-item">
+              <i class="fab fa-react"></i>
+              <span>React</span>
+              <div class="skill-level" data-level="75"></div>
+            </div>
+          </div>
+        </div>
+        <div class="skills-category">
+          <h3>Backend</h3>
+          <div class="skills-grid">
+            <div class="skill-item">
+              <i class="fab fa-node-js"></i>
+              <span>Node.js</span>
+              <div class="skill-level" data-level="75"></div>
+            </div>
+            <div class="skill-item">
+              <i class="fas fa-database"></i>
+              <span>SQL</span>
+              <div class="skill-level" data-level="70"></div>
+            </div>
+            <div class="skill-item">
+              <i class="fab fa-python"></i>
+              <span>Python</span>
+              <div class="skill-level" data-level="80"></div>
+            </div>
+          </div>
+        </div>
+        <div class="skills-category">
+          <h3>Tools & Others</h3>
+          <div class="skills-grid">
+            <div class="skill-item">
+              <i class="fab fa-git-alt"></i>
+              <span>Git</span>
+              <div class="skill-level" data-level="85"></div>
+            </div>
+            <div class="skill-item">
+              <i class="fas fa-terminal"></i>
+              <span>Command Line</span>
+              <div class="skill-level" data-level="80"></div>
+            </div>
+            <div class="skill-item">
+              <i class="fas fa-code-branch"></i>
+              <span>Version Control</span>
+              <div class="skill-level" data-level="85"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonials" class="testimonials-section">
+      <h2>Client <b id="uf8">Testimonials</b></h2>
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="testimonial-content">
+            <i class="fas fa-quote-left quote-icon"></i>
+            <p>"Jose demostró un excelente dominio técnico y una gran capacidad para entender nuestras necesidades. El resultado final superó nuestras expectativas."</p>
+          </div>
+          <div class="testimonial-author">
+            <img src="./img/client1.jpg" alt="Sarah Johnson" loading="lazy">
+            <div class="author-info">
+              <h4>Sarah Johnson</h4>
+              <p>Tech Lead, InnovaSoft</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-content">
+            <i class="fas fa-quote-left quote-icon"></i>
+            <p>"Su atención al detalle y compromiso con la calidad son excepcionales. Trabajar con Jose fue una experiencia muy positiva."</p>
+          </div>
+          <div class="testimonial-author">
+            <img src="./img/client2.jpg" alt="David Chen" loading="lazy">
+            <div class="author-info">
+              <h4>David Chen</h4>
+              <p>Project Manager, TechStart</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="achievements" class="achievements-section">
+      <h2>Key <b id="uf9">Achievements</b></h2>
+      <div class="achievements-grid">
+        <div class="achievement-card">
+          <div class="achievement-icon">
+            <i class="fas fa-code"></i>
+          </div>
+          <h3>20+</h3>
+          <p>Projects Completed</p>
+        </div>
+        <div class="achievement-card">
+          <div class="achievement-icon">
+            <i class="fas fa-users"></i>
+          </div>
+          <h3>15+</h3>
+          <p>Happy Clients</p>
+        </div>
+        <div class="achievement-card">
+          <div class="achievement-icon">
+            <i class="fas fa-award"></i>
+          </div>
+          <h3>5+</h3>
+          <p>Certifications</p>
+        </div>
+        <div class="achievement-card">
+          <div class="achievement-icon">
+            <i class="fas fa-clock"></i>
+          </div>
+          <h3>2+</h3>
+          <p>Years Experience</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <h2>Get <b id="uf6">In</b> Touch</h2>
+      <div class="contact-container">
+        <div class="contact-info">
+          <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <p>josepatinohincapie@gmail.com</p>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-phone"></i>
+            <p>+57 3116510119</p>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <p>Medellin, Colombia</p>
+          </div>
+        </div>
+        <form class="contact-form">
+          <div class="form-group">
+            <input type="text" placeholder="Your Name" required>
+          </div>
+          <div class="form-group">
+            <input type="email" placeholder="Your Email" required>
+          </div>
+          <div class="form-group">
+            <textarea placeholder="Your Message" required></textarea>
+          </div>
+          <button type="submit" class="cta_button">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <section id="blog" class="blog-section">
+      <h2>Latest <b id="uf7">Blog</b> Posts</h2>
+      <div class="blog-grid">
+        <article class="blog-card">
+          <div class="blog-image">
+            <img src="./img/blog1.jpg" alt="Modern web development practices" loading="lazy">
+          </div>
+          <div class="blog-content">
+            <div class="blog-meta">
+              <span><i class="far fa-calendar"></i> Jan 15, 2024</span>
+              <span><i class="far fa-folder"></i> Development</span>
+            </div>
+            <h3>Modern Web Development Practices</h3>
+            <p>Exploring the latest trends and best practices in modern web development, from responsive design to performance optimization.</p>
+            <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </article>
+
+        <article class="blog-card">
+          <div class="blog-image">
+            <img src="./img/blog2.jpg" alt="AI in web development" loading="lazy">
+          </div>
+          <div class="blog-content">
+            <div class="blog-meta">
+              <span><i class="far fa-calendar"></i> Jan 10, 2024</span>
+              <span><i class="far fa-folder"></i> Tech</span>
+            </div>
+            <h3>The Future of AI in Web Development</h3>
+            <p>How artificial intelligence is shaping the future of web development and what developers need to know.</p>
+            <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </article>
+
+        <article class="blog-card">
+          <div class="blog-image">
+            <img src="./img/blog3.jpg" alt="UI/UX design principles" loading="lazy">
+          </div>
+          <div class="blog-content">
+            <div class="blog-meta">
+              <span><i class="far fa-calendar"></i> Jan 5, 2024</span>
+              <span><i class="far fa-folder"></i> Design</span>
+            </div>
+            <h3>Essential UI/UX Design Principles</h3>
+            <p>Key principles of UI/UX design that every developer should understand for creating better user experiences.</p>
+            <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <img src="./img/robot_10681121.png" alt="Logo" class="footer-logo-img">
+          <span><b>Jose's</b> Web</span>
+          <p class="footer-description">Full Stack Developer especializado en crear experiencias web modernas y responsivas.</p>
+        </div>
+        
+        <nav class="footer-nav">
+          <div class="footer-nav-column">
+            <h4>Navegación</h4>
+            <ul>
+              <li><a href="#home"><i class="fas fa-home"></i> Inicio</a></li>
+              <li><a href="#about"><i class="fas fa-user"></i> Sobre Mí</a></li>
+              <li><a href="#projects"><i class="fas fa-code"></i> Proyectos</a></li>
+              <li><a href="#skills"><i class="fas fa-tools"></i> Habilidades</a></li>
+            </ul>
+          </div>
+          <div class="footer-nav-column">
+            <h4>Recursos</h4>
+            <ul>
+              <li><a href="#blog"><i class="fas fa-blog"></i> Blog</a></li>
+              <li><a href="#testimonials"><i class="fas fa-star"></i> Testimonios</a></li>
+              <li><a href="#achievements"><i class="fas fa-trophy"></i> Logros</a></li>
+              <li><a href="#contact"><i class="fas fa-envelope"></i> Contacto</a></li>
+            </ul>
+          </div>
+        </nav>
+
+        <div class="footer-social">
+          <h4>Sígueme</h4>
+          <div class="social-links">
+            <a href="https://github.com/JosepoMP" target="_blank" class="social-icon" aria-label="GitHub">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/jose-pati%C3%B1o-77b1892ab/" target="_blank" class="social-icon" aria-label="LinkedIn">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://www.instagram.com/josemig.p/?next=%2F" target="_blank" class="social-icon" aria-label="Instagram">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </div>
+          <p class="footer-copyright">© 2025 Jose Patiño. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      // Loader
+      window.addEventListener('load', () => {
+        const loader = document.querySelector('.loader-container');
+        setTimeout(() => {
+          loader.style.opacity = '0';
+          setTimeout(() => {
+            loader.style.display = 'none';
+          }, 500);
+        }, 1000);
+      });
+
+      // Lazy Loading
+      document.addEventListener('DOMContentLoaded', function() {
+        const images = document.querySelectorAll('img[loading="lazy"]');
+        const imageOptions = {
+          threshold: 0,
+          rootMargin: '50px'
+        };
+
+        const imageObserver = new IntersectionObserver((entries, observer) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              const img = entry.target;
+              img.src = img.src; // Trigger load
+              observer.unobserve(img);
+            }
+          });
+        }, imageOptions);
+
+        images.forEach(img => imageObserver.observe(img));
+      });
+
+      // Botón Volver Arriba
+      const backToTopButton = document.getElementById('back-to-top');
+      
+      window.addEventListener('scroll', () => {
+        if (window.scrollY > 300) {
+          backToTopButton.classList.add('show');
+        } else {
+          backToTopButton.classList.remove('show');
+        }
+      });
+
+      backToTopButton.addEventListener('click', () => {
+        window.scrollTo({
+          top: 0,
+          behavior: 'smooth'
+        });
+      });
+    </script>
+  </body>
+</html>
