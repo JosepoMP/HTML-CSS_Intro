@@ -1,3 +1,3 @@
 # HTML-CSS_Intro
-!Hola¡ Bienvenido <b>
+<b>!Hola¡ Bienvenido </b> <br>
 aqui podras encontrar todos mis ejecicios y pruebas de HTML y CSS
