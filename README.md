@@ -1,4 +1,4 @@
-<h1 align="center">🌐 Intro a HTML & CSS</h1>
+<h1 align="center"> 🎨​ Intro a HTML & CSS</h1>
 
 <p align="center">
   Un espacio creativo donde exploro el poder de la web desde cero: estructura con HTML y estilo con CSS. Todo lo que necesitas para dar los primeros pasos como desarrollador front-end.
