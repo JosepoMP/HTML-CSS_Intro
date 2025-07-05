@@ -54,7 +54,7 @@
 _Desarrollador en formación, amante de lo visual, curioso por naturaleza._
 
 📫 **Contacto**  
-[Instagram](https://instagram.com/josepomp) ・ [LinkedIn](https://www.linkedin.com/in/josepomp) ・ josepomp@gmail.com
+[Instagram](https://instagram.com/josepomp) ・ [LinkedIn](https://www.linkedin.com/in/josepomp) ・ josepatinohincapie@gmail.com
 
 ---
 
