@@ -9,17 +9,9 @@
 ## 📁 Estructura del Repositorio
 
 ```bash
-📦 HTML_CSS_Figma/
+📦 HTML_CSS
 ├── entregable_semana01.html       # Primer entregable práctico de maquetación básica
-├── Mi primera pagina.html         # Primer proyecto HTML: estructura, etiquetas y contenido
-├── portfolio/
-│   └── styles.css                 # Estilos para el portafolio personal
 ├── Pruebas/
-│   └── index.html                 # Prueba de desempeño sobre estructuras semánticas
-├── code.css                       # Archivo CSS general para pruebas y prototipos
-├── prueba desempeño/
-│   └── index.html                 # Evaluación HTML/CSS (formularios, listas, estructura)
-├── README.md                      # Este archivo 🤓
 ```
 
 ---
