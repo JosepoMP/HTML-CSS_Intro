@@ -1,4 +1,4 @@
-/* RESET Y BASE */
+/* Global Styles  */
 * {
   margin: 0;
   padding: 0;
@@ -26,7 +26,7 @@ img {
   padding: 0 1.2rem;
 }
 
-/* HEADER Y NAV */
+/* HEADER and NAV */
 .header {
   background: #232946;
   color: #fff;
@@ -67,7 +67,7 @@ img {
   color: #232946;
 }
 
-/* HERO NUEVO */
+/* HERO */
 .hero {
   background: linear-gradient(120deg, #eebbc3 0%, #b8c1ec 100%);
   color: #232946;
@@ -114,7 +114,7 @@ img {
   transform: scale(1.04);
 }
 
-/* ABOUT NUEVO */
+/* ABOUT */
 .about {
   padding: 3.5rem 0 2.5rem 0;
 }
@@ -173,7 +173,7 @@ img {
   font-size: 1.1em;
 }
 
-/* PORTFOLIO NUEVO */
+/* PORTFOLIO */
 .portfolio {
   padding: 3.5rem 0 2.5rem 0;
 }
@@ -220,7 +220,7 @@ img {
   margin-bottom: 1.2rem;
 }
 
-/* CONTACT NUEVO */
+/* CONTACT */
 .contact {
   padding: 3.5rem 0 2.5rem 0;
 }
@@ -292,7 +292,7 @@ input:focus, textarea:focus {
   outline: none;
 }
 
-/* FOOTER NUEVO */
+/* FOOTER */
 .footer {
   background: #232946;
   color: #eebbc3;
@@ -323,7 +323,7 @@ input:focus, textarea:focus {
   color: #b8c1ec;
 }
 
-/* RESPONSIVE NUEVO */
+/* RESPONSIVE */
 @media (max-width: 950px) {
   .about-content,
   .contact-content {
